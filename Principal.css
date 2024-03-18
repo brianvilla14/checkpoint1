@@ -1,0 +1,81 @@
+
+body {margin: 1px;
+    outline: 1px;
+    padding: 1px;
+    font-family: Arial, sans-serif;
+}
+header{
+    text-shadow:red;
+    display: flex;
+    text-align: center;
+    padding: 10px 0;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+    margin: 1px;
+}
+header img{
+    height: 100px;
+    padding: 0% 40%;
+}
+nav {padding: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: red;
+  padding: 10px 20px;
+  border: 1px solid red;
+  margin: 0 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  border-color: white;
+  color: white;
+}
+
+main{
+    background-image:url("./images/fondo.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+
+.recomendados{
+    flex-direction: row;
+}
+section{
+    margin: auto;
+    width: 50%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align:left;
+    padding: 10px 0;
+}
+table { background-color: white;
+padding: 5px;
+border: 2px solid black;}
+th { font-display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;}
+    
+    td{ padding: 10px;
+    background-color: grey;
+    border: 2px solid black;
+    }
+    ol{background-attachment: fixed;
+        background-color: grey;
+        border: 1px solid black;
+        border-radius: 3px;
+        display: block;}
